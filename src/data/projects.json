@@ -1,0 +1,26 @@
+[
+  {
+    "title": "DoctorNow",
+    "imageSrc": "projects/doctor.png",
+    "description": "A telemedicine application for virtual doctor consultations with appointment scheduling and becoming a doctor",
+    "skills": ["Nextjs", "javaScript", "Node.js", "MongoDB"],
+    "live": "https://doctor-now-ruddy.vercel.app/",
+    "code": "https://github.com/MuhammadIbtesamm/DoctorNow-main"
+  },
+  {
+    "title": "E-commerce Easy Shop",
+    "imageSrc": "projects/ecom.png",
+    "description": "A responsive e-commerce platform with product management, shopping cart, and secure payment integration.",
+    "skills":["React","Firebase", "MongoDB", "Tailwind CSS"],
+    "live": "https://easy-shop-five.vercel.app/",
+    "code": "https://github.com/MuhammadIbtesamm/easyshop-main"
+  },
+  {
+    "title": "Perfect Recipe",
+    "imageSrc": "projects/recipe.png",
+    "description": "A full-featured recipe management platform with user authentication, recipe creation, and sharing capabilities.",
+    "skills": ["React", "Firebase", "MongoDB"],
+    "live": "https://perfect-recipe-orcin.vercel.app/",
+    "code": "https://github.com/MuhammadIbtesamm/perfect-recipe"
+  }
+]

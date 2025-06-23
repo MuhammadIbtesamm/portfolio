@@ -1,0 +1,122 @@
+@import "../../vars.css";
+
+.educationSection {
+  padding: 80px 10%;
+  position: relative;
+  z-index: 1;
+  color: var(--color-text);
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  color: var(--color-text);
+  border-left: 4px solid var(--color-primary);
+  padding-left: 16px;
+  letter-spacing: 2px;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background-color: var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.item {
+  position: relative;
+  margin: 40px 0;
+  width: 50%;
+}
+
+.left {
+  right: 1%;
+  text-align: right;
+}
+
+.right {
+  left: 51%;
+  text-align: left;
+}
+
+.year {
+  color: var(--color-primary);
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.card {
+  background-color: var(--color-dark);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* ✅ Responsive only: keeps desktop untouched */
+@media screen and (max-width: 768px) {
+  .timeline {
+    padding-left: 10px;
+  }
+
+  .item {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
+
+  .left,
+  .right {
+    left: 0 !important;
+    right: auto;
+    text-align: left;
+    width: 100%;
+  }
+
+  .line {
+    left: 20px;
+    transform: none;
+  }
+
+  .card {
+    margin-top: 5px;
+    padding: 18px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.875rem;
+  }
+}

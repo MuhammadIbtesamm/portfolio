@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 4rem 8%;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Heading styles */
+.text h2 {
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph styles */
+.text p {
+  font-size: clamp(1.25rem, 4vw, 2.5rem);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* Links column */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: clamp(1rem, 3vw, 1.8rem);
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* Tablet and below */
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 5%;
+  }
+
+  .text {
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
