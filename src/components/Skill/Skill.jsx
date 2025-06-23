@@ -32,7 +32,7 @@ export const Skill = () => {
           </li>
 
           <li className={styles.skillItem}>
-            <img src={getImageUrl("about/database.png")} alt="Database Icon"/>
+            <img src={getImageUrl("about/uiIcon.png")} alt="Database Icon"/>
             <div className={styles.skillItemText}>
               <h3>Database Management</h3>
               <p>
