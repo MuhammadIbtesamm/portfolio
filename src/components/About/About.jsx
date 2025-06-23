@@ -7,7 +7,7 @@ export const About = () => {
       <h2 className={styles.heading}>ABOUT ME</h2>
       <div className={styles.content}>
         <p>
-        I'm a Computer Science undergraduate at SMIU, currently in my 7th semester, with a passion for building creative, human-centered technology. My journey blends a strong foundation in software development with years of experience in design and music production, giving me a unique perspective on crafting intuitive, impactful solutions.
+        I'm a Computer Science undergraduate at SMIU, currently in my 8th semester, with a passion for building creative, human-centered technology. My journey blends a strong foundation in software development with years of experience in design and music production, giving me a unique perspective on crafting intuitive, impactful solutions.
         </p>
         <p>
           Currently pursuing my Bachelor's in CS, I've spent the last several years honing my skills in React, React Native, and web technologies while applying them to real-world projects. My background includes:
