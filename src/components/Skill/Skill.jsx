@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./Skill.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Skill = () => {
   return (
@@ -10,7 +9,6 @@ export const Skill = () => {
       <div className={styles.content}>
         <ul className={styles.skillItems}>
           <li className={styles.skillItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend Icon"/>
             <div className={styles.skillItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -21,7 +19,6 @@ export const Skill = () => {
           </li>
           
           <li className={styles.skillItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Backend Icon"/>
             <div className={styles.skillItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -32,7 +29,6 @@ export const Skill = () => {
           </li>
 
           <li className={styles.skillItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend Icon"/>
             <div className={styles.skillItemText}>
               <h3>Database Management</h3>
               <p>
